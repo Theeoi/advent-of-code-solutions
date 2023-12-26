@@ -1,8 +1,8 @@
-# Advent of Code 2023
+# Advent of Code Solutions
 
 ![Run Pytest](https://github.com/Theeoi/advent-of-code-2023/actions/workflows/test.yml/badge.svg?label=Tests)
 
-My solutions to the Advent of Code 2023 problems
+My solutions to the Advent of Code problems throughout the years.
 
 ## General Information
 
@@ -11,11 +11,11 @@ My solutions to the Advent of Code 2023 problems
 ### Technologies
 
 - Python =3.12
-- *List of prominent packages*
+- Advent-of-code-data =2.0
 
 ### Features
 
-- *List of features*
+- Some solutions to Advent of Code 2023
 - More features coming! See [Roadmap](#roadmap)..
 
 ### Project Layout
@@ -28,7 +28,7 @@ My solutions to the Advent of Code 2023 problems
 
     src/
 
-        advent-of-code-2023/
+        aoc2023/
         README.md
 
     tests/
@@ -38,6 +38,7 @@ My solutions to the Advent of Code 2023 problems
         conftest.py
 
     .gitignore
+    mkdocs.yml
     pyproject.toml
     README.md
 
@@ -45,35 +46,28 @@ My solutions to the Advent of Code 2023 problems
 
 ### Usage
 
-To use the package do the following:
+To use the solutions do the following:
 
 1. Clone the repo and open it as the working directory.
-2. Run `python -m pip install .` to install the package.
-3. Run `advent-of-code-2023` to execute the main package script.
+2. Navigate to the src directory and open the Jupyter Notebook of interest
 
 ### Contributing
 
-To develop this package you should do the following:
-
-1. Follow the steps outlined in [Usage](#usage) to get the package running.
-2. Create a Python virtual environment using your prefered method and activate it.
-3. Run `python -m pip install .[dev]` to install the development dependancies.
-4. Run `python -m pip install .[docs]` to install the documentation dependancies.
-5. *Continue the list accoring to your needs*
+No contributions welcome as this is meant as a personal repo.
 
 ## Project Status
 
-*Describe the current status of the project*
+Starting in 2023, I mean to start doing these every year. I will most likely not compete for the leaderboards ans solutions may be added sporatically durin the months of december and january.
 
 ### Roadmap
 
 TODO:
 
-- [ ] *List upcoming features and milestones here*
+- [ ] Continue adding 2023 solutions
 
 Room for Improvement:
 
-- *List non-crucial possible improvments here*
+- Consider implementing testing
 
 ## Contact
 

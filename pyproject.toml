@@ -5,19 +5,21 @@
   build-backend = "setuptools.build_meta"
 
 [project]
-  name = "advent-of-code-2023"
+  name = "advent-of-code-solutions"
   version = "0.0.1"
   authors = [
     { name = "Theodor Blom", email = "me@theodorblom.com" },
   ]
-  description = "My solutions to the Advent of Code 2023 problems"
+  description = "My solutions to the Advent of Code problems"
   readme = "README.md"
   requires-python = ">=3.9,<3.13"
   classifiers = [
     "Programming Language :: Python",
     "Programming Language :: Python :: 3",
   ]
-  dependencies = []
+  dependencies = [
+    "advent-of-code-data >= 2.0.1, < 3",
+  ]
 
 [project.optional-dependencies]
   dev = [
@@ -33,9 +35,9 @@
     "black >= 23.12.0, < 24",
   ]
 
-[tools.pytest.ini_options]
+[tool.pytest.ini_options]
   addopts = "-v --cov='src'"
   testpaths = "tests"
 
 [project.urls]
-  homepage = "https://github.com/Theeoi/advent-of-code-2023"
+  homepage = "https://github.com/Theeoi/advent-of-code-solutions"
